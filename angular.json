@@ -19,6 +19,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
+                        "baseHref": "/portfolio/",
                         "outputPath": "dist/andresjosehr-portfolio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
